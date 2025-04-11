@@ -1,0 +1,203 @@
+/*
+#9c93e5
+#c7a3d2
+#ba8cbe
+#7f4ea8
+*/
+
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        /*background-image: url(../img/Simonefun2.jpg);*/
+        background-repeat: initial;
+        background-color:#c7a3d2 ;  
+        
+    }
+
+    header, footer{
+        background-color:#7f4ea8;
+        padding: 1%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+
+     footer{
+         position:flex;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;  
+     }
+
+    .menu-opcoes{
+        text-align: center;
+    }
+
+    .imglogo{
+        width: 35%;
+        
+    }
+
+    .fixo{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030; 
+    } 
+    
+    .ajustes{
+        line-height: 1;
+        text-align: center;
+    }
+
+    .ajustes li:hover{
+        background-color: #c7a3d2;
+    }
+
+    .container{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        margin-bottom: 15%;
+
+    }
+
+   
+
+    /*tela menor que 599px*/
+@media screen and (min-width:599px) {
+    .container{
+        margin-top: 65%;
+    }
+
+}
+       /*tela maior que 600px*/
+@media screen and (min-width:600px) {
+    .container{
+        margin-top: 30%;
+    }
+
+}
+     /*tela maior que 768px*/
+@media only screen and (min-width: 768px){
+    .container{
+        margin-top: 10%; }
+    header{
+        background-color:#7f4ea8;
+        flex-direction: row;
+        position: relative;
+    }
+    .menu-opcoes{
+        position: absolute;
+        right: 5%;
+        top: 40%;
+    }
+
+    .menu-opcoes ul li{
+        display:inline ;
+        margin-left: 10px;
+    }
+
+}
+
+    h1{
+      font-size: 2em; 
+    }
+
+    h2{
+        font-size: 1.5em;
+        
+    }
+
+    .titulos{
+        text-align: center;
+        color:rgb(226, 226, 226);
+        font-weight: bold;
+        line-height: 2;  
+    }
+
+    p{
+        color:rgb(61, 60, 60);
+        font-weight: bolder;
+        font-size: 1.2em;
+        text-align: justify;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    
+    }
+    figure{
+        text-align: center;
+    }
+    .imgtexto{
+        border: 5px #9c93e5;
+        width: 35%;
+    
+    }
+    
+    a:link{
+        color:rgb(224, 208, 208);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color:rgb(224, 208, 208);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color:blue;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active{
+        color:rgb(224, 208, 208);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        color:black;
+        border: 2px solid black;
+        border-radius: 12px;
+        font-size: 1.2em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    td,th{
+        /* border: #000000; */
+        border: 5px solid #3b3838;
+        padding: 2%;
+    
+    }
+
+    /* tr:nth-child(even){
+    background-color:#cdcdcd;
+    } */
+
+    .testeri{
+        float: left;
+    }
+
+    .testepa{
+        margin-left: 25%;
+    }
+
+   
+
+ 
